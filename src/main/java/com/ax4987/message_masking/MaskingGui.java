@@ -16,6 +16,7 @@ public class MaskingGui extends GuiScreen {
         this.playerNames = playerNames;
         this.buttons = new ArrayList<>();
         this.isBan = new ArrayList<>();
+        banPlayer = new ArrayList<>();
         for (int i = 1;i <= 19;i++){
             this.playerNames.add(String.valueOf(i));
         }
@@ -26,6 +27,7 @@ public class MaskingGui extends GuiScreen {
         super.initGui();
         buttons.clear();
         isBan.clear();
+        banPlayer.clear();
         for (int i = 1;i <= this.playerNames.size();i++){
             this.isBan.add(i - 1,false);
         }

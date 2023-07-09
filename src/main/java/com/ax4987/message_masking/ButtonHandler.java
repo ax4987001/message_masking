@@ -15,9 +15,9 @@ public class ButtonHandler extends GuiButton {
             mc.getTextureManager().bindTexture(TEXTURE);
             GlStateManager.color(1F,1F,1F);
             if (!isBan){
-                drawModalRectWithCustomSizedTexture(x,y,0,0,2*size,2*size,32,32);
+                drawModalRectWithCustomSizedTexture(x,y,0,0,5*size,5*size,32,32);
             }else {
-                drawModalRectWithCustomSizedTexture(x,y,31,0,2*size,2*size,32,32);
+                drawModalRectWithCustomSizedTexture(x,y,31,0,5*size,5*size,32,32);
             }
         }
     }
