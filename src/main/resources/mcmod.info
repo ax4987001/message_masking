@@ -1,0 +1,16 @@
+[
+{
+  "modid": "message_masking",
+  "name": "message_masking",
+  "description": "A mode can mask message.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ax4987"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
