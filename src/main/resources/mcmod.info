@@ -5,10 +5,10 @@
   "description": "A mode can mask message.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
+  "url": "https://github.com/ax4987001/message_masking",
+  "updateUrl": "https://github.com/ax4987001/message_masking",
   "authorList": ["ax4987"],
-  "credits": "",
+  "credits": "Tungregn",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
