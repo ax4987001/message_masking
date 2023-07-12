@@ -32,6 +32,7 @@ public class Message_masking {
         // 注册热键
         ClientRegistry.registerKeyBinding(keyBinding);
         MinecraftForge.EVENT_BUS.register(new Chat_masking());
+        MinecraftForge.EVENT_BUS.register(new PlayerData());
     }
     //
     @SubscribeEvent
